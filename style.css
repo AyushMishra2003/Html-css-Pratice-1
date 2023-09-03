@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*   heading css */
+.header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    gap: 150px;
+    background-color: darkgrey;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+ul li{
+    list-style: none;
+} 
+ul li  a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.logo{
+    padding: 10px;
+    margin: 20px;
+}
+.logo img{
+    mix-blend-mode: multiply;
+    width: 80px;
+    height: 80px;
+}
+/* seaction main css*/
+section{
+    display: flex;
+    background-color: grey;
+}
+.main-left{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width: 400px;
+   margin-top: 140px;
+   margin-left: 250px;
+   padding: 15px;
+}
+.main-left h3{
+    color: black;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+.main-left p{
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
+}
+.main{
+    align-self: flex-end;
+    margin-left:50px;
+    width: 800px;
+    height: 670px;  
+    background-image: url(./IMAGE/sho.jpeg); 
+    background-size: cover;
+    /*
+    width: 500px;
+    height: 650px;
+    
+     */
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    margin:  0 auto;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+.container{
+    min-height: 50vh;
+}
+h2{
+    text-decoration: underline;
+    text-align:center;
+    font-size: 40px;
+    margin-top: 15px;
+}
+.container1{
+    display: flex;
+    height: 300px;
+    gap: 70px;
+    padding: 50px;
+    margin: 5px;
+}
+.con1{
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    padding: 10px 20px;
+    background-color: rgb(214, 177, 189);
+}
+.con1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 130px;
+    mix-blend-mode: multiply;
+}
+.con1 h4{
+    text-align: center;
+}
+/* client css */
+.client{
+    height: 200px;
+}
+.logo1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-left: 40px;
+    padding: 10px 10px;
+}
+/*    FOTTER */
+.fot{
+    margin-top: 20px;
+    height: 400px;
+    background-image: url(./IMAGE/contactme.webp);
+    background-position: center;
+    background-size: cover;
+}
+.form{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.form button{
+    width: 100px;
+    height: 20px;
+    background-color: darkkhaki;
+    border-radius: 10px;
+}
